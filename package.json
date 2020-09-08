@@ -1,0 +1,35 @@
+{
+  "name": "basic-css",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@dfds-ui/react-components": "^0.8.5",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@next/bundle-analyzer": "^9.4.4",
+    "lost": "8.2.0",
+    "next": "latest",
+    "next-compose-plugins": "^2.2.0",
+    "next-transpile-modules": "^3.3.0",
+    "postcss-nested": "2.1.2",
+    "react": "^16.7.0",
+    "react-dates": "^21.8.0",
+    "react-dom": "^16.7.0",
+    "react-select": "^3.1.0",
+    "styled-jsx-plugin-postcss": "0.1.0"
+  },
+  "license": "ISC",
+  "postcss": {
+    "plugins": {
+      "lost": {},
+      "postcss-nested": {}
+    }
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^3.8.0"
+  }
+}
