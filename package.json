@@ -7,20 +7,23 @@
     "start": "next start"
   },
   "dependencies": {
-    "@dfds-ui/react-components": "^0.8.5",
-    "@emotion/core": "^10.0.28",
+    "@dfds-ui/react-components": "^0.8.22",
+    "@dfds-ui/hooks": "0.8.22",
+    "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
-    "@next/bundle-analyzer": "^9.4.4",
-    "lost": "8.2.0",
-    "next": "latest",
+    "@next/bundle-analyzer": "^9.5.3",
+    "lost": "8.3.1",
+    "next": "9.5.3",
     "next-compose-plugins": "^2.2.0",
-    "next-transpile-modules": "^3.3.0",
-    "postcss-nested": "2.1.2",
-    "react": "^16.7.0",
+    "next-transpile-modules": "^4.1.0",
+    "postcss-nested": "4.2.3",
+    "react": "^16.13.1",
     "react-dates": "^21.8.0",
-    "react-dom": "^16.7.0",
+    "react-dom": "^16.13.1",
     "react-select": "^3.1.0",
-    "styled-jsx-plugin-postcss": "0.1.0"
+    "styled-jsx-plugin-postcss": "3.0.0",
+    "framer-motion": "2.6.8",
+    "@danchitnis/react-fps-stats": "0.3.1"
   },
   "license": "ISC",
   "postcss": {

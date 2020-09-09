@@ -1,0 +1,9 @@
+.square {
+  border-radius: 20px;
+  margin: auto;
+  height: 10vh;
+  width: 10vh;
+  float: left;
+  background-image: linear-gradient(to bottom, #ff9999, #ff5b5b),
+    linear-gradient(to bottom, #e5b1ff, #e5b1ff);
+}
